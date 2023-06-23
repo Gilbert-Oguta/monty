@@ -21,6 +21,6 @@ void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
 	q->next = *head;
 	q->prev->next = NULL;
 	q->prev = NULL;
-	(*head)->prev = copy;
+	(*head)->prev = q;
 	(*head) = q;
 }
