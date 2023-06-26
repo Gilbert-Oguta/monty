@@ -1,12 +1,19 @@
 #include "monty.h"
 /**
-*stack - print number of stack
-*@line_number: number of elements
-*@stack: pointer to the variable
+*pall - print stack
+*@line_number: www
+*@stack: pointer
 *Return: Nothing
 *
+*
+*
+*
+*
+*
+*
 */
-void stck(stack_t **stack, unsigned int __attribute__((unused)) line_number)
+
+void pall(stack_t **stack, unsigned int __attribute__((unused)) line_number)
 {
 stack_t *current = *stack;
 
