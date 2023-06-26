@@ -2,11 +2,15 @@
 
 
 /**
-* find_opcode - find opcode in a stack
-* @stack: pointer to the stack
-* @opcode: input to the elements
+* find_opcode - find opcode
+* @stack: pointer
+* @opcode: input
 * @line_number: line
 * Return: Always 1 / stderr
+*
+*
+*
+*
 *
 */
 int find_opcode(stack_t **stack, char *opcode, int line_number)
@@ -35,10 +39,13 @@ exit(EXIT_FAILURE);
 
 
 /**
-* main - Process byte codes input
+* main - Process byte codes
 * @argc: size of argv
-* @argv: double point
+* @argv: double poin
 * Return: EXIT_SUCCESS
+*
+*
+*
 *
 *
 */
@@ -91,7 +98,9 @@ return (0);
 
 /**
 * free_stack - frees stack
-* @stack: pointer to the variable
+* @stack: pointer
+*
+*
 *
 *
 */
