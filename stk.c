@@ -1,15 +1,9 @@
 #include "monty.h"
 /**
-*pall - print stack
-*@line_number: www
-*@stack: pointer
+*pall - print stack of variable
+*@line_number: line of code
+*@stack: pointer to a variable
 *Return: Nothing
-*
-*
-*
-*
-*
-*
 *
 */
 
